@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .site-card-wrapper {
+  padding: 30px;
+  background: #dfdcdc;
+} */
+
+div.card {
+  width: 30%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+  text-align: -webkit-auto;
+  margin: 2%;
+  padding: 2%;
+  height: 250px;
+  display: inline-flex;
+}
+
+.content{
+  height: 100px;
+  overflow-y: auto;
+}
+.card1 {
+  width: 60%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+  text-align: -webkit-auto;
+  margin: 2%;
+  padding: 2%;
+  height: 250px;
+  display: inline-block;
+  background-color: #b2b9c799;
+}
+
+.ant-btn-primary {
+  width: 100px !important;
+  align-self: end;
+}
+
+.viewBtn {
+  position: absolute;
+  right:    0;
+  bottom:   0;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #101011;
+  color: #0b0b0c;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #7e7f8a;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #7e7f8a;
+}
+
+.paginationDisabled a {
+  color: rgb(24, 23, 23);
+  background-color: grey;
+}
